@@ -1,0 +1,5 @@
+/vscode
+/node_modules
+/vscode
+/build/binding.Makefile
+package-lock.json
