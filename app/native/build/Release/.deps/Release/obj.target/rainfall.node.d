@@ -1,0 +1,1 @@
+cmd_Release/obj.target/rainfall.node := g++ -shared -pthread -rdynamic -m64  -Wl,-soname=rainfall.node -o Release/obj.target/rainfall.node -Wl,--start-group Release/obj.target/rainfall/rainfall.o Release/obj.target/rainfall/rainfall_node.o -Wl,--end-group 
